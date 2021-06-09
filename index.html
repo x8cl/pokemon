@@ -17,12 +17,21 @@
     <script>
         $(document).ready(function(){
 
+            for(var i = 1; i <= 151; i++){
+                var url = '<img src="http://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/' + i + '.png">';
+                $('#imagen').append(url);
+            };
+
         });
+
     </script>
 </head>
 <body>
     <div class="container">
-        
+        <h1 class="text-center">Listado Pokemon</h1>
+        <div class="row">
+            <div id="imagen"></div>
+        </div>
     </div>
 
     <!-- Bootstrap Bundle with Popper -->
