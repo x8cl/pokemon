@@ -1,0 +1,1 @@
+Crea una muestra de los 151 pokemon "Aplicaciones Full Stack Python Trainee - INACAP - 2021"
