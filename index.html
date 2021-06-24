@@ -17,11 +17,11 @@
     <script>
         $(document).ready(function(){
 
-            for(var i = 1; i <= 151; i++){
-                var url = '<img src="http://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/' + i + '.png">';
-                $('#imagen').append(url);
-            };
+            for (let id = 1; id <= 151; id++){
+                var url = '<img src="http://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/' + id + '.png">';
 
+                $('#sprite').append(url);
+            };          
         });
 
     </script>
@@ -30,7 +30,7 @@
     <div class="container">
         <h1 class="text-center">Listado Pokemon</h1>
         <div class="row">
-            <div id="imagen"></div>
+            <div id="sprite"></div>
         </div>
     </div>
 
